@@ -7,6 +7,10 @@
   --foreground: #171717;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -18,4 +22,16 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+  @apply text-blue-400;
+}
+
+.subheading {
+  @apply font-bold text-xl uppercase mb-8;
+}
+
+.u-list {
+  @apply list-disc list-inside;
 }
