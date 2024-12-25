@@ -292,9 +292,12 @@ export default function Home() {
           <p>
             This information is primarily needed to maintain the security and
             operation of our application(s), for troubleshooting, and for our
-            internal analytics and reporting purposes. All personal information
-            that you provide to us must be true, complete, and accurate, and you
-            must notify us of any changes to such personal information.
+            internal analytics and reporting purposes.
+          </p>
+          <p>
+            All personal information that you provide to us must be true,
+            complete, and accurate, and you must notify us of any changes to
+            such personal information.
           </p>
           <p className={"font-bold"}>Google API</p>
           <p>
@@ -354,13 +357,16 @@ export default function Home() {
           <p className={"subheading"}>
             3. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
           </p>
-          <p>
+          <p className={"italic"}>
             <strong>In Short:</strong> We may share information in specific
             situations described in this section and/or with the following third
-            parties. Vendors, Consultants, and Other Third-Party Service
-            Providers. We may share your data with third-party vendors, service
-            providers, contractors, or agents (&quot;third parties&quot;) who
-            perform services for us or on our behalf and require access to such
+            parties.
+          </p>
+          <p>
+            Vendors, Consultants, and Other Third-Party Service Providers. We
+            may share your data with third-party vendors, service providers,
+            contractors, or agents (&quot;third parties&quot;) who perform
+            services for us or on our behalf and require access to such
             information to do that work.
           </p>
           <p>
@@ -545,6 +551,7 @@ export default function Home() {
             records. If you become aware of any data we may have collected from
             children under age 18, please contact us at
             <a className={"link"} href={"mailto:johncarlo.camara@gmail.com"}>
+              {" "}
               johncarlo.camara@gmail.com.
             </a>
           </p>
