@@ -424,7 +424,7 @@ export default function Home() {
             this Privacy Notice, your input, output, and personal information
             will be shared with and processed by these Al Service Providers to
             enable your use of our Al Products for purposes outlined in{" "}
-            <a className={"link"} href={"#shareHeading"}>
+            <a className={"link"} href={"#share-info"}>
               &quot;WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
               INFORMATION?&quot;
             </a>
